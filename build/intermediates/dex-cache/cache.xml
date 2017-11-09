@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\AMap_Search_V5.5.0_20171107.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b7fc2c582458f3eddc00b4594510793e8f70935e">
+        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Search_V5.5.0_20171107_d15e5564e089d974e3097f1ce0e6efaa78e3b78f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\Volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Volley_eb0ba3b1a2904c140b384f858ec9adcd36355126.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.5.0_20171107.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b96174c376eb87e16ad49c9d5fb4d3dca086aa73">
+        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Android_Map3D_SDK_V5.5.0_20171107_21f4231785c0cf8e0992c12ef87c27fe05f9bbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\android-support-v4_82fc5b7c32cb6a29b517fba94ba47faae3037ccc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\AMap_Location_V3.6.1_20171012.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="538dbe4979c1a69aa5e15862a245288a585335ea">
+        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.6.1_20171012_a70185efec3111c3f2bb612ed50be7bbbe7fef91.jar" />
+    </item>
+
+</items>
