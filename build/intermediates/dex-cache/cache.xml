@@ -2,49 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\AMap_Search_V5.5.0_20171107.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b7fc2c582458f3eddc00b4594510793e8f70935e">
-        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Search_V5.5.0_20171107_d15e5564e089d974e3097f1ce0e6efaa78e3b78f.jar" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_58d8d88d3356d29d23c87b9eaa0a930c2653dd92\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\Volley.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
-        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Volley_eb0ba3b1a2904c140b384f858ec9adcd36355126.jar" />
+        sha1="f7a4618494766e8a3643e5e1933eb3ad889d281b">
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_242e8b3d01b45f42db22e9c3729293781e87dc12\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.5.0_20171107.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.5.0_20171107.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b96174c376eb87e16ad49c9d5fb4d3dca086aa73">
-        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\Android_Map3D_SDK_V5.5.0_20171107_21f4231785c0cf8e0992c12ef87c27fe05f9bbb5.jar" />
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Map3D_SDK_V5.5.0_20171107_0641e10186ce3eebb1f04f997f0a325bf119fe3c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\android-support-v4.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\libs\Volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Volley_1ef16deb8828808c728431dcb755eb7a06df3b67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\libs\AMap_Search_V5.5.0_20171107.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b7fc2c582458f3eddc00b4594510793e8f70935e">
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Search_V5.5.0_20171107_9298dd809a1eb7562bbd56673cd439d8d79d9c93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\libs\android-support-v4.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
-        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\android-support-v4_82fc5b7c32cb6a29b517fba94ba47faae3037ccc.jar" />
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_22f55077bc787dbf842e4e1a7f1a990fc64c675b\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\libs\AMap_Location_V3.6.1_20171012.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\jinhui\Desktop\AMap3DDemo\app\libs\AMap_Location_V3.6.1_20171012.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="538dbe4979c1a69aa5e15862a245288a585335ea">
-        <dex dex="C:\Users\jinhui\Desktop\map\AMap3DDemo\app\build\intermediates\pre-dexed\debug\AMap_Location_V3.6.1_20171012_a70185efec3111c3f2bb612ed50be7bbbe7fef91.jar" />
+        <dex dex="C:\Users\jinhui\Desktop\AMap3DDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V3.6.1_20171012_f158ba614477951780f87f41fbf46e72fc5dc074\classes.dex" />
     </item>
 
 </items>
