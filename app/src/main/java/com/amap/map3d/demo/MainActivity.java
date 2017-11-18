@@ -77,6 +77,7 @@ import com.amap.map3d.demo.tools.CalculateDistanceActivity;
 import com.amap.map3d.demo.tools.ContainsActivity;
 import com.amap.map3d.demo.tools.CoordConverActivity;
 import com.amap.map3d.demo.tools.GeoToScreenActivity;
+import com.amap.map3d.demo.trace.TestTraceActivity;
 import com.amap.map3d.demo.trace.TraceActivity;
 import com.amap.map3d.demo.trace.TraceActivity_Simple;
 import com.amap.map3d.demo.view.FeatureView;
@@ -334,7 +335,8 @@ public final class MainActivity extends ListActivity {
 //			地图计算工具
 			new DemoDetails(R.string.map_expand, R.string.blank, null),
 //			轨迹纠偏
-			new DemoDetails(R.string.trace_demo, R.string.trace_description, TraceActivity.class),
+//			new DemoDetails(R.string.trace_demo, R.string.trace_description, TraceActivity.class),
+			new DemoDetails(R.string.trace_demo, R.string.trace_description, TestTraceActivity.class),
 			new DemoDetails(R.string.trace_demo_simple, R.string.trace_description_simple, TraceActivity_Simple.class),
 //			平滑移动
 			new DemoDetails(R.string.smooth_move_demo, R.string.smooth_move_description, SmoothMoveActivity.class)

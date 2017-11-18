@@ -35,6 +35,8 @@ import com.amap.map3d.demo.R;
 
 /**
  * 轨迹纠偏功能 示例
+ *
+ * 点击轨迹纠偏按钮显示路线
  */
 public class TraceActivity extends Activity implements TraceListener,
 		OnClickListener, OnCheckedChangeListener, OnItemSelectedListener {
@@ -62,23 +64,27 @@ public class TraceActivity extends Activity implements TraceListener,
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_trace);
-		mGraspButton = (Button) findViewById(R.id.grasp_button);
-		mCleanFinishOverlay = (Button) findViewById(R.id.clean_finish_overlay_button);
-		mCleanFinishOverlay.setOnClickListener(this);
-		mGraspButton.setOnClickListener(this);
-		mMapView = (MapView) findViewById(R.id.map);
+        initView();
 		mMapView.onCreate(savedInstanceState);// 此方法必须重写
-		mResultShow = (TextView) findViewById(R.id.show_all_dis);
-		mLowSpeedShow = (TextView) findViewById(R.id.show_low_speed);
-		mRecordChoose = (Spinner) findViewById(R.id.record_choose);
 		mDistanceString = getResources().getString(R.string.distance);
 		mStopTimeString = getResources().getString(R.string.stop_time);
-		mCoordinateTypeGroup = (RadioGroup) findViewById(R.id.coordinate_type_group);
+        mCleanFinishOverlay.setOnClickListener(this);
+        mGraspButton.setOnClickListener(this);
 		mCoordinateTypeGroup.setOnCheckedChangeListener(this);
 		init();
 	}
 
-	/**
+    private void initView() {
+        mGraspButton = (Button) findViewById(R.id.grasp_button);
+        mCleanFinishOverlay = (Button) findViewById(R.id.clean_finish_overlay_button);
+        mMapView = (MapView) findViewById(R.id.map);
+        mResultShow = (TextView) findViewById(R.id.show_all_dis);
+        mLowSpeedShow = (TextView) findViewById(R.id.show_low_speed);
+        mRecordChoose = (Spinner) findViewById(R.id.record_choose);
+        mCoordinateTypeGroup = (RadioGroup) findViewById(R.id.coordinate_type_group);
+    }
+
+    /**
 	 * 初始化
 	 */
 	private void init() {
@@ -89,6 +95,7 @@ public class TraceActivity extends Activity implements TraceListener,
 		}
 		mTraceList = TraceAsset.parseLocationsData(this.getAssets(),
 				"traceRecord" + File.separator + "AMapTrace.txt");
+		// 设置spinner适配器
 		mRecordChooseArray = TraceAsset.recordNames(this.getAssets());
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, mRecordChooseArray);
@@ -226,6 +233,7 @@ public class TraceActivity extends Activity implements TraceListener,
 		int id = v.getId();
 		switch (id) {
 		case R.id.grasp_button:
+			// 开始轨迹纠偏
 			traceGrasp();
 			break;
 		case R.id.clean_finish_overlay_button:
