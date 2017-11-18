@@ -99,7 +99,9 @@ public class PolylineActivity extends Activity implements
 		mColorBar.setOnSeekBarChangeListener(this);
 		mAlphaBar.setOnSeekBarChangeListener(this);
 		mWidthBar.setOnSeekBarChangeListener(this);
+		// 视角
 		aMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(39.300299, 106.347656), 4));
+		// 增加覆盖物
 		aMap.setMapTextZIndex(2);
 	}
 	//绘制一条实线

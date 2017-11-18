@@ -21,6 +21,8 @@ import com.amap.map3d.demo.R;
 
 /**
  * AMapV2地图中简单介绍一些Polygon的用法.
+ *
+ * Polyline属性！
  */
 public class PolygonActivity extends Activity implements
 		OnSeekBarChangeListener {
